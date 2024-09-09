@@ -7,7 +7,7 @@ on:
     branches:
       - main
 jobs:
-  checkout_job:
+  CI_pipeline:
     runs-on: ubuntu-latest
     container: 
       image: python:3.9-slim
